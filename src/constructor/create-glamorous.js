@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import reactPrimitives from 'react-primitives';
+import reactPrimitives from 'react-brimitives';
 import PropTypes from 'prop-types';
 import { CHANNEL } from '../constants';
 import getStyles from '../utils/get-styles';

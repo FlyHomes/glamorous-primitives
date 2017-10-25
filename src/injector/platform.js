@@ -1,4 +1,4 @@
-import { Platform } from 'react-primitives';
+import { Platform } from 'react-brimitives';
 
 // Execution environment (fallback for platform.os === 'ios' || platform.os === 'android')
 import exenv from 'exenv';

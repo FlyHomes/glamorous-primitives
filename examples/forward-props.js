@@ -1,5 +1,5 @@
 import React from 'react';
-import 'react-primitives';
+import 'react-brimitives';
 import glamorous from 'glamorous-primitives';
 
 const MyComponent = ({shouldRender, ...rest}) => (

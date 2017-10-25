@@ -1,5 +1,5 @@
 import React from 'react';
-import 'react-primitives';
+import 'react-brimitives';
 import glamorous, { ThemeProvider } from 'glamorous-primitives';
 
 const theme = {

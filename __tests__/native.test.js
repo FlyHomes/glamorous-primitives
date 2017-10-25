@@ -1,9 +1,9 @@
 import React from 'react'
 import {render, mount} from 'enzyme'
 import serializer from 'jest-glamor-react'
-import 'react-primitives';
+import 'react-brimitives';
 import renderer from 'react-test-renderer'
-import reactPrimitives, {StyleSheet, View} from 'react-primitives'
+import reactPrimitives, {StyleSheet, View} from 'react-brimitives'
 import glamorous from '../src/index'
 
 expect.addSnapshotSerializer(serializer)

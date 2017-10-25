@@ -8,21 +8,21 @@
   "keywords": [
     "react",
     "glamorous",
-    "react-primitives"
+    "react-brimitives"
   ],
   "license": "MIT",
   "dependencies": {
     "brcast": "^2.0.2",
     "exenv": "^1.2.2",
     "prop-types": "^15.5.10",
-    "react-primitives": "^0.4.3"
+    "react-brimitives": "^0.4.5"
   },
   "peerDependencies": {
     "react": "^16.0.0"
   },
   "scripts": {
     "prebuild": "rm -rf lib",
-    "codemod": "./node_modules/.bin/jscodeshift -t react-codemod/transforms/class.js node_modules/react-primitives --extensions js",
+    "codemod": "./node_modules/.bin/jscodeshift -t react-codemod/transforms/class.js node_modules/react-brimitives --extensions js",
     "build": "yarn codemod && yarn build:lib",
     "build:lib": "NODE_ENV=production ./node_modules/.bin/babel src --out-dir lib",
     "test:watch": "./node_modules/.bin/jest --watch",

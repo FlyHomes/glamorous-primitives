@@ -19,10 +19,10 @@
 * [Resources](#resources)
 
 ## Problem
-You cannot use [glamorous](https://github.com/paypal/glamorous) together with [react-primitives](https://github.com/lelandrichardson/react-primitives) to style the components.
+You cannot use [glamorous](https://github.com/paypal/glamorous) together with [react-brimitives](https://github.com/lelandrichardson/react-brimitives) to style the components.
 
 ## Solution
-Combine glamorous with react-primitives by removing implicit dependencies to render the same code across the targets.
+Combine glamorous with react-brimitives by removing implicit dependencies to render the same code across the targets.
 
 > Use this package **only** when you want to share the same code across multiple platform. If you're looking for styling the components on a specific platform use [glamorous-native](https://github.com/robinpowered/glamorous-native) for React Native and [glamorous](https://github.com/paypal/glamorous) for React
 
@@ -32,7 +32,7 @@ Combine glamorous with react-primitives by removing implicit dependencies to ren
 npm install glamorous-primitives --save
 ```
 
-This also depends on `react` and `react-primitives`. Make sure you have installed them.
+This also depends on `react` and `react-brimitives`. Make sure you have installed them.
 
 ## Examples
 
@@ -66,7 +66,7 @@ I am Working on 👇🏼
 
 ## Resources
 Below is the list of resources where you can learn more about primitive interfaces, rendering process across multiple platform and styling the components
-* [react-primitives](https://github.com/lelandrichardson/react-primitives)
+* [react-brimitives](https://github.com/lelandrichardson/react-brimitives)
 * [react-native-web](https://github.com/necolas/react-native-web)
 * [react-sketchapp](https://github.com/airbnb/react-sketchapp)
 

@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-primitives';
+import { StyleSheet } from 'react-brimitives';
 
 export default function prepareStyles(styles) {
 	return styles

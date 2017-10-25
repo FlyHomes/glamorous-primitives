@@ -1,7 +1,7 @@
-import reactPrimitives from 'react-primitives';
-import viewStylePropTypes from 'react-primitives/lib/web/View/ViewStylePropTypes';
-import textStylePropTypes from 'react-primitives/lib/web/Text/TextStylePropTypes';
-import imageStylePropTypes from 'react-primitives/lib/web/Image/ImageStylePropTypes';
+import reactPrimitives from 'react-brimitives';
+import viewStylePropTypes from 'react-brimitives/lib/web/View/ViewStylePropTypes';
+import textStylePropTypes from 'react-brimitives/lib/web/Text/TextStylePropTypes';
+import imageStylePropTypes from 'react-brimitives/lib/web/Image/ImageStylePropTypes';
 
 // Get all the supported props for the primitive interface
 const viewStyleProps = Object.keys(viewStylePropTypes);

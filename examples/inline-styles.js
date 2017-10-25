@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet } from 'react-primitives';
+import { StyleSheet } from 'react-brimitives';
 import glamorous, { ThemeProvider } from 'glamorous-primitives';
 
 const StyledView = glamorous.view({

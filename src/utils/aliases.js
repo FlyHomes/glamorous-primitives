@@ -1,4 +1,4 @@
-import reactPrimitives from 'react-primitives';
+import reactPrimitives from 'react-brimitives';
 
 /**
   Native interfaces to be assigned. 
